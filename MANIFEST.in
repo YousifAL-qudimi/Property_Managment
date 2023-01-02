@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prpoerty_managment *.css
+recursive-include prpoerty_managment *.csv
+recursive-include prpoerty_managment *.html
+recursive-include prpoerty_managment *.ico
+recursive-include prpoerty_managment *.js
+recursive-include prpoerty_managment *.json
+recursive-include prpoerty_managment *.md
+recursive-include prpoerty_managment *.png
+recursive-include prpoerty_managment *.py
+recursive-include prpoerty_managment *.svg
+recursive-include prpoerty_managment *.txt
+recursive-exclude prpoerty_managment *.pyc
